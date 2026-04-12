@@ -160,10 +160,6 @@ sudo umount ~/rpi5_boot
 
 ---
 
-> 👉 You should see boot logs.
-
----
-
 ## Final Summary
 
 | Step | Action |
