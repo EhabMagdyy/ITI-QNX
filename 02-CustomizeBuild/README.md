@@ -1,4 +1,5 @@
 # Customize IFS Image for Raspberry Pi 5 — Adding a C program
+<img width="848" height="506" alt="qnx-02" src="https://github.com/user-attachments/assets/86a3105e-fe19-46f9-bd8e-2b5a5a0f4929" />
 
 ---
 
