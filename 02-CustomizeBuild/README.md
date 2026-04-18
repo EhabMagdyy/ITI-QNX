@@ -41,6 +41,8 @@ cd /home/ehab/qnx800/bsp/BSP_raspberrypi-bcm2712-rpi5_be-800_SVN1024006_JBN381/i
 make clean
 nano rpi5.build
 # [uid=0 gid=0 perms=0755] /bin/hello_qnx=/home/ehab/qnx_dev/hello_qnx
+# you can also add it in startup script to run after boot:
+# /bin/hello_qnx
 cd ..
 make
 # or if you would like use: mkifs without the need of make clean
