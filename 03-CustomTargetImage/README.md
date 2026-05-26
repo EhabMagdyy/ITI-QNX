@@ -634,4 +634,15 @@ PKGS = thorvg lottie-screen_thorvg simple-terminal bash sayhi
 [type=file uid=0 gid=0 perms=0755]
 usr/local/bin/hello=${SRC}/stage/nto/aarch64le/usr/local/bin/hello
 ```
- 
+
+---
+
+## Flash on RPi
+```sh
+# For RPi5
+bmaptool create build/rpi5/rpi5.img > build/rpi5/rpi5.bmap
+sudo bmaptool copy build/rpi5/rpi5.img /dev/sdX
+# For RPi4
+bmaptool create build/rpi4/rpi4.img > build/rpi4/rpi4.bmap
+sudo bmaptool copy build/rpi4/rpi4.img /dev/sdX
+```
