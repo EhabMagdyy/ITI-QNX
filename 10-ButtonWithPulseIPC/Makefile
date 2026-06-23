@@ -1,4 +1,4 @@
-ARTIFACT = servo
+ARTIFACT = button
 
 # Build architecture
 PLATFORM ?= aarch64le
